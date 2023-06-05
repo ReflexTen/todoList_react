@@ -1,0 +1,14 @@
+.input {
+  max-width: 300px;
+  width: 100%;
+  padding: 10px 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Dancing Script', cursive;
+}
+
+.input::placeholder {
+  /* color: red; */
+  font-family: 'Dancing Script', cursive;
+}

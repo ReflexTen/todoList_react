@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  /* font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; */
+  font-family: 'Dancing Script', cursive;
+  color: white;
+  /* background-color: #9c9237c5; */
+  background: linear-gradient(to right, #a79b31, rgba(236, 45, 45, 0.281)),
+    linear-gradient(to right, rgba(236, 45, 45, 0.281), #a79b31);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: left bottom;
+  }
+
+  50% {
+    background-position: right bottom;
+  }
+
+  100% {
+    background-position: left bottom;
+  }
+}
